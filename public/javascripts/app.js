@@ -45,7 +45,7 @@ $(function() {
                                     "username": "incoming-webhook",
                                     "mrkdwn": true,
                                     "attachments": [{
-                                        "text": "A user with visitor_id " + event.body.trigger.mcId + " has abandoned the cart. He visited these pages:\n" + event.body.trigger.enrichments.analyticsHitSummary.dimensions.pageURL.data.join("\r\n").replace("\r\n\r\n", "\r\n"),
+                                        "text": "holaaaaa Eider through heroku",
                                         "fallback": "You have received a new message from io_triggers!",
                                         "color": attachments_color_green,
                                         "attachment_type": "default"
