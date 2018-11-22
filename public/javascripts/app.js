@@ -36,7 +36,7 @@ $(function() {
 
                     socket.on(currentUri, function(event, data) {
                             addLog(event);
-                            //console.log(currentUri, event, data);
+                            console.log(currentUri, event, data);
                             var mes;
                             var attachments_color_green = "#008000";
                             try {
@@ -45,7 +45,7 @@ $(function() {
                                     "username": "incoming-webhook",
                                     "mrkdwn": true,
                                     "attachments": [{
-                                        "text": "event_id: " + JSON.stringify(data),
+                                        "text": "event_id: ",
                                         "fallback": "You have received a new message from io_triggers!",
                                         "color": attachments_color_green,
                                         "attachment_type": "default"
