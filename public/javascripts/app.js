@@ -45,7 +45,7 @@ $(function() {
                                     "username": "incoming-webhook",
                                     "mrkdwn": true,
                                     "attachments": [{
-                                        "text": "event_id: " + JSON.stringfy(data),
+                                        "text": "event_id: " + JSON.stringify(data),
                                         "fallback": "You have received a new message from io_triggers!",
                                         "color": attachments_color_green,
                                         "attachment_type": "default"
