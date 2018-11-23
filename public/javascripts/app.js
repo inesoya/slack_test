@@ -45,7 +45,7 @@ $(function() {
                                     "username": "incoming-webhook",
                                     "mrkdwn": true,
                                     "attachments": [{
-                                        "text":  event.body.event_id,
+                                        "text":  event.body.event."com.adobe.mcloud.pipeline.pipelineMessage"."com.adobe.mcloud.protocol.trigger"."enrichments"."analyticsHitSummary"."dimensions"."eVar140"."data",
                                         "fallback": "You have received a new message from io_triggers!",
                                         "color": attachments_color_green,
                                         "attachment_type": "default"
