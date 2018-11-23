@@ -45,7 +45,7 @@ $(function() {
                                     "username": "incoming-webhook",
                                     "mrkdwn": true,
                                     "attachments": [{
-                                        "text":  event.body.event,
+                                        "text":  "Nuevo cliente logado: " + event.body.event_id,
                                         "fallback": "You have received a new message from io_triggers!",
                                         "color": attachments_color_green,
                                         "attachment_type": "default"
